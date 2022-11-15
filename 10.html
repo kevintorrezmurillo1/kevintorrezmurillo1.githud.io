@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venom la Pelicula</title>
+  <style>
+	body {
+		background-image: url("data:image/jpeg;base64,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");
+		
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+
+	}
+  </style> 
+</head>
+</html>
+<body>
+    <FONT COLOR="black" size="30" >
+        <center>FORMULARIO PARA SER MIEMBRO</center><BR>
+    </FONT>
+    <BR> 
+            <FONT COLOR="black" size="5">
+    <form name="formulario_datos" id="formulario_datos" action="envio.php" 
+    method="get" >
+    <fieldset form="formulario_datos" name="grupo_datos_personales"> 
+        <BR>
+    <legend> Datos Personales </legend>
+    <label for="nombre" form="formulario_datos">Nombre: </label>
+    
+    <input type="text" name="nombre" id="nombre" value="" placeholder="ej. JUAN PEREZ"><br>
+    <label for="nombre" form="formulario_datos">Apellido: </label>
+    
+    <input type="text" name="nombre" id="nombre" value="" placeholder=" ej. QUISPE MAMANI"><br>
+    <label for="localidad" form="formulario_datos">DIRECCION: </label>
+    <input type="text" name="telefono" id="localidad" value="" placeholder=""><br>
+    <label for="localidad" form="formulario_datos">Telefono: </label>
+    <input type="text" name="telefono" id="localidad" value="" placeholder=""><br><BR>
+    </fieldset>
+   
+    <br>
+    <label for="coche" form="formlario_datos">Estado Civil: </label> 
+    <select name="estado">
+    <option value="Ninguno" selected>Ninguno</option> 
+    <option value="casado">Casado</option>
+    <option value="separado">Separado</option> 
+    <option value="divorciado">Divorciado</option>
+    <option value="viudo">Viudo</option> 
+    </select>
+    </fieldset>
+    <BR>
+    <input type="submit" name="enviar" value="Enviar Datos..."> 
+    </form>
+</FONT>
+    </body>
+    <html>
+	<head>
+        <br>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:1000px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:rgba(63, 56, 56, 0.048);
+				color:rgb(47, 43, 43);
+				text-decoration:none;
+				padding:20px 50px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#43434363;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="index.html" >Menu Principal</a></li>
+				
+				<li><a href="">Acerca de</a>
+					<ul>
+						<li><a href="">Actores</a>
+							<ul>
+								  <li><a href="2.html">Tom Hardy </a></li>
+							 	  <li><a href="3.html">Michelle Williams </a></li>
+							      <li><a href="4.html">Riz Ahmed </a></li>
+								  <li><a href="5.html">Jenny Slate </a></li>
+								  <li><a href="6.html">Scott Haze </a></li>
+								  <li><a href="7.HTML">Ried Scott </a></li>
+							</ul>
+						</li>
+						<li><a href="">Director</a>
+							<ul>
+							<li><a href="9.html">Ruben Fleischer </a></li></ul>
+						</li>
+						<li><a href="https://www.buscabiografias.com/biografia/verDetalle/10389/Stan%20Lee">Stan lee </a></li>
+						<li><a href="https://kevintorrezmurillo.blogspot.com/2022/09/mis-actividades-en-blogger.html">Mi correo</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="1.html">Produccion</a></li>
+				<li><a href="8.html">Estreno</a></li>
+				
+				<li><a href="">Formularios</a>
+							<ul>
+								<li><a href="10.html">Suscripcion al club </a></li>
+								<li><a href="https://sites.google.com/site/vengadorespart1/formulario">Suscripcion a Marvel </a></li>
+								<li><a href="11.html">Suscripcion Avengers </a></li>
+								
+								<li><a href="12.html">Suscripcion Stanle  </a></li>
+								<li><a href="13.HTML">Miembro Vip </a></li>
+							</ul>
+						</li>
+				
+			</ul>
+		</div>
+
+	</body>
+</section>
+</html>
